@@ -41,9 +41,9 @@ class App extends React.Component {
       {
 				items.map((item) => (
 				 <div class="main">
-          <h3 class="card-title">{item.network}</h3>
-          <h4 class="card-title">{item.schedule}</h4>
-          <h4 class="card-title">{item.image}</h4>
+          <h3 class="card-title">{item.id}</h3>
+          <h4 class="card-title">{item.name}</h4>
+          <h4 class="card-title">{item.language}</h4>
           <h4 class="card-title">{item.genres}</h4>
           <h4 class="card-title">{item.runtime}</h4>
           <h4 class="card-title">{item.premiered}</h4>
