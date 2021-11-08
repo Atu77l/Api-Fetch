@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![read](read.png)
+![read](https://github.com/Atu77l/Api-Fetch/blob/main/src/read.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
