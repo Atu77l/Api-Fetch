@@ -2,4 +2,18 @@
 .main{
   background-color: rgb(250, 215, 239);
   height: fit-content;
+  align:center;
+  text-align: center;
+
+}
+.App{
+  align-items: center;
+}
+h1{
+  align-items: center;
+  text-align: center;
+}
+.image{
+  height:50px;
+  width:50px;
 }

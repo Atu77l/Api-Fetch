@@ -43,15 +43,19 @@ class App extends React.Component {
 				 <div class="main">
           <h3 class="card-title">{item.id}</h3>
           <h4 class="card-title">{item.name}</h4>
-          <h4 class="card-title">{item.language}</h4>
           <h4 class="card-title">{item.genres}</h4>
+          <h4 class="card-title">{item.types}</h4>
           <h4 class="card-title">{item.runtime}</h4>
           <h4 class="card-title">{item.premiered}</h4>
-          <img src={item.image.original} style="height:50px;width:50px;"/>
-          <a href="https://api.tvmaze.com/shows/{item.id}" class="btn btn-primary">Link Of TvShow Details</a>
+          <h4 class="card-title">{item.image.original}</h4>
+		  <h4 class="card-title">{item.summary}</h4>
+		  <img src={item.image.original} className="image" alt="Images absent"/>
+		  
+          <a href="https://api.tvmaze.com/shows/{item.id}" class="btn btn-primary">Link Of TvShows</a>
           </div>
 				))
 			}
+      
 
 		</div>
 	);
