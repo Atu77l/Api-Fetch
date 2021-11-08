@@ -48,11 +48,10 @@ class App extends React.Component {
           <h4 class="card-title">{item.runtime}</h4>
           <h4 class="card-title">{item.premiered}</h4>
           <img src={item.image.original} style="height:50px;width:50px;"/>
-          <a href="https://api.tvmaze.com/shows/{item.id}" class="btn btn-primary">Link Of TvShows</a>
+          <a href="https://api.tvmaze.com/shows/{item.id}" class="btn btn-primary">Link Of TvShow Details</a>
           </div>
 				))
 			}
-      <hr></hr> <hr></hr>
 
 		</div>
 	);
